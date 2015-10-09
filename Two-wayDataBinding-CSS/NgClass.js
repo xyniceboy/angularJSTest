@@ -9,7 +9,7 @@ myCSSModule.controller('HeaderController', ['$scope',
             $scope.isWarning = false;
         };
 
-        $scope.showWaring = function() {
+        $scope.showWarning = function() {
             $scope.messageText = 'Just a waring, Please carry on.';
             $scope.isError = false;
             $scope.isWarning = true;
