@@ -1,0 +1,14 @@
+<html ng-app='TestFormModule'>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script src="framework/angular-1.2.20/angular.js"></script>
+		<script src="FormBasic.js"></script>
+	</head>
+	<body>
+		<form name="myForm" ng-submit="save()" ng-controller="TestFormModule">
+			<input name="userName" type="text" ng-module="user.userName" required/>
+			<input name="password" type="password" ng-module="user.password" required/>
+			<input type="submit" ng-disabled="myForm.$invalid"/>
+		</form>
+	</body>
+</html>

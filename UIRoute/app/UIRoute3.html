@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="routerApp">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+ 
+    <script src="framework/angular-1.2.20/angular.js"></script>
+    <!--  angular-ui-router.js
+          参考：
+          http://blog.163.com/bwang2009@yeah/blog/static/12796646720159984338626/
+    -->
+    <script src="framework/angular-1.2.20/angular-ui-router.js"></script>
+    <script src="framework/angular-1.2.20/angular-animate.js"></script>
+    <script src="UIRoute3.js"></script>
+</head>
+
+<body>
+    <div ui-view>
+    </div>
+</body>
+
+</html>
+<!-- angularJS-1.2以后将各个机制进行了模块化（比如：route、animate没有放在同一个angular.js 中） -->

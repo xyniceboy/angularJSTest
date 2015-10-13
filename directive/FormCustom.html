@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="form-example2">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="framework/bootstrap-3.3.5-dist/css/bootstrap.min.css" media="screen">
+    <script src="framework/angular-1.2.20/angular.js"></script>
+    <script src="FormCustom.js"></script>
+    <style type="text/css">
+    div[contentEditable] {
+        cursor: pointer;
+        background-color: #D0D0D0;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div contentEditable="true" ng-model="content" title="click to edit">some</div>
+        <pre>model={{content}}</pre>
+    </div>
+</body>
+
+</html>
